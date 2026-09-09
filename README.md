@@ -1,8 +1,7 @@
 # Mini Pokédex
 
 Android app that lists Pokémon and shows details for each, using data from the
-[PokeAPI](https://pokeapi.co/). Built for the Persec Android Developer internship
-practical test.
+[PokeAPI](https://pokeapi.co/).
 
 ## Features
 - **Home screen** — grid of Pokémon (name + official artwork), loaded from `GET /pokemon`.
