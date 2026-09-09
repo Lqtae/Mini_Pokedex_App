@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- White pokéball centered in the safe zone -->
+    <group>
+        <!-- outer ring -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="6" android:fillColor="#00000000"
+            android:pathData="M54,54 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+        <!-- horizontal band -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="6"
+            android:pathData="M24,54 L38,54 M70,54 L84,54" />
+        <!-- center button ring -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="6" android:fillColor="#00000000"
+            android:pathData="M54,54 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0" />
+        <!-- center dot -->
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M54,54 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    </group>
+</vector>
